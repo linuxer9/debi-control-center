@@ -1,0 +1,255 @@
+#!/bin/sh
+# programed by \ Mohamed Mohsen for debi Linux 2012 
+
+ic_dir="/usr/share/pixmaps/debi-cc2/"
+
+logo=$ic_dir"cp.png"
+
+#########################1st frame##########################
+
+ico01=$ic_dir"01.png"
+title01="مدير الحزم"
+desc01="لتثبيت الحزم وإزالة الحزم وتحديث المستودعات"
+
+ico02=$ic_dir"02.png"
+title02="مصادر البرمجيات"
+desc02="للتحكم في المستودعات"
+
+ico03=$ic_dir"03.png"
+title03="تحرير ملف المصادر"
+desc03="لتعديل ملف /etc/apt/sources.list يدويا"
+
+ico04=$ic_dir"04.png"
+title04="حذف الحزم اليتيمة"
+desc04="لحذف الحزم عديمة الفائدة والغير مهمة"
+
+ico05=$ic_dir"05.png"
+title05="مثبّت الحزم"
+desc05="تثبيت الحزم يدويا"
+
+#########################2nd frame##########################
+
+ico11=$ic_dir"11.png"
+title11="خصائص الخلفية"
+desc11="لتعيين الخلفية وخصائص الخلفية"
+
+ico12=$ic_dir"12.png"
+title12="إعدادات اللوحة"
+desc12="لإعداد اللوحة السُفلية وشريط المهام"
+
+ico13=$ic_dir"13.png"
+title13="المظهر"
+desc13="تعيين ثمة gtk ، ثمة الأيقونات ، المؤشر...          "
+
+ico14=$ic_dir"14.png"
+title14="إعدادات مدير النوافذ"
+desc14="تغيير ثمة النوافذ و إعدادات أوبن بوكس."
+
+ico15=$ic_dir"15.png"
+title15="إعدادات جلسة سطح المكتب"
+desc15=" لتغيير إعدادات جلسة لكسدي وبدء التشغيل"
+
+#########################3rd frame##########################
+
+ico21=$ic_dir"21.png"
+title21="إعدادات مدير الولوج"
+desc21="التحـكم  في إعدادات  مدير  الولوج slim"
+
+ico22=$ic_dir"22.png"
+title22="تغيير اللغة"
+desc22="لتغيير لغة النظام بالكامل"
+
+ico23=$ic_dir"23.png"
+title23="تقسيم الأقراص"
+desc23="لتنظيم وحذف وإنشاء وتهيئية الأقراص المحلية     "
+
+ico24=$ic_dir"24.png"
+title24="إعدادات الشبكة المحلية"
+desc24=" "
+#########################4th frame##########################
+
+ico31=$ic_dir"31.png"
+title31="دقة الشاشة"
+desc31="تغيير دقة العرض "
+
+ico32=$ic_dir"32.png"
+title32="إعدادات لوحة الفاتيح والفأرة"
+desc32="تغيير إعدادت لوحة المفاتيح والفأرة"
+
+ico33=$ic_dir"33.png"
+title33="معلومات العتاد"
+desc33="عرض معولمات العتاد والأجهزة والتعريفات"
+
+ico34=$ic_dir"34.png"
+title34="إدارة الأقراص"
+desc34="للتحكم في الأقراص وتركيبها                   "
+
+ico35=$ic_dir"35.png"
+title35="إدارة الطاقة"
+desc35=" "
+######################################################
+
+
+export dlg="
+<window title=\"لوحة تحكم debi GNU/Linux\" icon-name=\"gkdebconf-icon\" resizable=\"false\">
+	<vbox>
+	
+
+	<hbox homogeneous=\"true\">
+	<pixmap xalign=\"0\">
+	<input file>\"$logo\"</input>
+	</pixmap>
+	</hbox>
+	
+
+	
+	<vbox>
+	<frame الحزم والبرامج><hbox space-expand=\"true\" space-fill=\"true\">
+		
+	
+		
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc01\" >
+		<input file>\"$ico01\"</input>
+		<action>remsu synaptic &</action>
+		<label>\"$title01\"</label>
+		</button>
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc02\" >
+		<input file>\"$ico02\"</input>
+		<action>remsu software-properties-gtk &</action>
+		<label>\"$title02\"</label></button>
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc03\" >
+		<input file>\"$ico03\"</input>
+		<action>remsu mousepad /etc/apt/sources.list &</action>
+		<label>\"$title03\"</label></button>
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc04\" >
+		<input file>\"$ico04\"</input>
+		<action>remsu gtkorphan &</action>
+		<label>\"$title04\"</label></button>
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc05\" >
+		<input file>\"$ico05\"</input>
+		<action>gdebi-gtk &</action>
+		<label>\"$title05\"</label></button>
+	</hbox></frame>
+        	<frame النظام><hbox space-expand=\"true\" space-fill=\"true\">
+	
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc21\" >
+		<input file>\"$ico21\"</input>
+		<action>remsu slimer</action>
+		<label>\"$title21\"</label></button>
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc22\" >
+		<input file>\"$ico22\"</input>
+		<action>remsu \"roxterm -e dpkg-reconfigure locales\"</action>
+		<label>\"$title22\"</label></button>
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc23\" >
+		<input file>\"$ico23\"</input>
+		<action>remsu /usr/sbin/gparted & </action>
+		<label>\"$title23\"</label></button>
+		
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc24\" >
+		<input file>\"$ico24\"</input>
+		<action>remsu \"wicd-gtk --no-tray\" &</action>
+		<label>\"$title24\"</label></button>
+
+
+	
+	</hbox></frame>
+	
+	<frame العتاد><hbox space-expand=\"true\" space-fill=\"true\">
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc31\" >
+		<input file>\"$ico31\"</input>
+		<action>lxrandr &</action>
+		<label>\"$title31\"</label></button>
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc32\" >
+		<input file>\"$ico32\"</input>
+		<action>lxinput &</action>
+		<label>\"$title32\"</label></button>
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc33\" >
+		<input file>\"$ico33\"</input>
+		<action>hardinfo &</action>
+		<label>\"$title33\"</label></button>
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc34\" >
+		<input file>\"$ico34\"</input>
+		<action>/usr/sbin/disk-manager-root &</action>
+		<label>\"$title34\"</label></button>
+		
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc35\" >
+		<input file>\"$ico35\"</input>
+		<action>xfce4-power-manager-settings &</action>
+		<label>\"$title35\"</label></button>
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc33\" >
+		<input file>\"$ico33\"</input>
+		
+		<action>debi-cc2-drivers &</action>
+		<action type=\"exit\">dlg</action>
+		
+		<label>\"تعاريف العتاد الإضافية\"</label></button>
+		</hbox>
+
+
+		
+		
+		
+	</frame>
+	<frame سطح المكتب><hbox space-expand=\"true\" space-fill=\"true\">
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc11\" >
+		<input file>\"$ico11\"</input>
+		<action>pcmanfm --desktop-pref</action>
+		<label>\"$title11\"</label></button>
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc12\" >
+		<input file>\"$ico12\"</input>
+		<action>lxpanelctl config</action>
+		
+		<label>\"$title12\"</label></button>
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc13\" >
+		<input file>\"$ico13\"</input>
+		<action>lxappearance &</action>
+		<label>\"$title13\"</label></button>
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc14\" >
+		<input file>\"$ico14\"</input>
+		<action>obconf &</action>
+		<label>\"$title14\"</label></button>
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc15\" >
+		<input file>\"$ico15\"</input>
+		<action>lxsession-edit &</action>
+		<label>\"$title15\"</label></button>
+	</hbox></frame>
+	
+	</vbox>
+	
+	
+	
+	
+	<hseparator></hseparator>
+	<hbox>
+	
+	<button cancel></button>
+	<button help>
+	<action>x-www-browser \"http://wiki-debi.co.cc/doku.php?id=%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9_%D9%84%D9%88%D8%AD%D8%A9_%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85\"</action>
+	</button>
+	
+	</hbox>
+	</vbox>
+
+		
+</window>
+"
+
+		
+		
+
+gtkdialog --center --program=dlg
+unset dlg

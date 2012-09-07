@@ -1,0 +1,10 @@
+Package: debi-cc2
+Version: 2.4
+Architecture: all
+Maintainer: Mohamed Mohsen <linuxer9@gmail.com>
+Installed-Size: 1472
+Depends: bash, gtkdialog
+Section: admin
+Priority: optional
+Description: debi GNU/Linux Linux control center 2
+   control center for debi GNU/Linux

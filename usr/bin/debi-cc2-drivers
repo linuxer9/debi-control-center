@@ -1,0 +1,66 @@
+#!/bin/sh
+# programed by \ Mohamed Mohsen for debi GNU/Linux 2012 
+ic_dir="/usr/share/pixmaps/debi-cc2/"
+logo=$ic_dir"cp.png"
+nvidia_ico=$ic_dir"nvidia.png"
+wifi_ico=$ic_dir"wifi.png"
+
+
+
+export dlg="
+<window title=\"لوحة تحكم debi GNU/Linux-تثبيت التعاريف الإضافية\" icon-name=\"gkdebconf-icon\" resizable=\"false\">
+	<vbox>
+	
+
+	<hbox homogeneous=\"true\">
+	<pixmap xalign=\"0\">
+	<input file>\"$logo\"</input>
+	</pixmap>
+
+	</hbox>
+	
+
+	<hbox>
+	
+		
+
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc01\" >
+		<input file>\"$nvidia_ico\"</input>
+		<height>64</height>
+       		<width>64</width>
+		<action>remsu \"roxterm -e debi-nvidia\" &</action>
+		<label>\"Nvidia التعريف المغلق\"</label>
+		</button>
+		
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc01\" >
+		<input file>\"$wifi_ico\"</input>
+		<height>64</height>
+       		<width>64</width>
+		<action>remsu  /usr/sbin/ndisgtk &</action>
+		<label>\" تعريف اللاسلكي Ndiswrapper\"</label>
+		</button>
+
+	
+	</hbox>
+	
+	
+	
+	
+	<hseparator></hseparator>
+	<hbox>
+	
+	<button><label>\"عودة\"</label><action>debi-cc2 &</action><action type=\"exit\">dlg</action></button>
+
+	
+	</hbox>
+	</vbox>
+
+		
+</window>
+"
+
+		
+		
+
+gtkdialog --center --program=dlg
+unset dlg

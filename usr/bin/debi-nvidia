@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "update repository"
+apt-get update
+echo "install nvidia drivers"
+aptitude install nvidia-kernel-2.6.32-5-486 nvidia-glx
+aptitude install nvidia-xconfig
+nvidia-xconfig
+echo "all done , please restart your computer"
