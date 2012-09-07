@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=control center
+Name[ar]=مركز تحكم النظام
+GenericName=control center
+Comment=debi GNU/Linux control center
+Exec=debi-cc2
+Icon=applications-system
+Terminal=False
+Type=Application
+Categories=System;
