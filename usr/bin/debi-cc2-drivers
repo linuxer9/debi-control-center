@@ -5,10 +5,14 @@ logo=$ic_dir"cp.png"
 nvidia_ico=$ic_dir"nvidia.png"
 wifi_ico=$ic_dir"wifi.png"
 
+title=`gettext -d debi-cc2 -s 'more drivers'`
 
+nvidia=`gettext -d debi-cc2 -s 'nvidia'`
+ndiswrapper=`gettext -d debi-cc2 -s 'ndiswrapper'`
+return=`gettext -d debi-cc2 -s 'return'`
 
 export dlg="
-<window title=\"لوحة تحكم debi GNU/Linux-تثبيت التعاريف الإضافية\" icon-name=\"gkdebconf-icon\" resizable=\"false\">
+<window title=\"$title\" icon-name=\"gkdebconf-icon\" resizable=\"false\">
 	<vbox>
 	
 
@@ -29,7 +33,7 @@ export dlg="
 		<height>64</height>
        		<width>64</width>
 		<action>remsu \"roxterm -e debi-nvidia\" &</action>
-		<label>\"Nvidia التعريف المغلق\"</label>
+		<label>\"$nvidia\"</label>
 		</button>
 		
 		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc01\" >
@@ -37,7 +41,7 @@ export dlg="
 		<height>64</height>
        		<width>64</width>
 		<action>remsu  /usr/sbin/ndisgtk &</action>
-		<label>\" تعريف اللاسلكي Ndiswrapper\"</label>
+		<label>\"$ndiswrapper\"</label>
 		</button>
 
 	
@@ -49,7 +53,7 @@ export dlg="
 	<hseparator></hseparator>
 	<hbox>
 	
-	<button><label>\"عودة\"</label><action>debi-cc2 &</action><action type=\"exit\">dlg</action></button>
+	<button><label>\"$return\"</label><action>debi-cc2 &</action><action type=\"exit\">dlg</action></button>
 
 	
 	</hbox>

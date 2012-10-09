@@ -1,0 +1,145 @@
+#English
+
+msgid "debi control center"
+msgstr "debi GNU/Linux Control Center"
+
+msgid "packages"
+msgstr "Packages and Applications"
+
+msgid "package man"
+msgstr "Packages Manager"
+
+msgid "package man desc"
+msgstr "Install, remove packages and update repositories"
+
+msgid "sources"
+msgstr "Software Sources"
+
+msgid "sources desc"
+msgstr "Add or remove repositories and control software sources"
+
+msgid "sources.list"
+msgstr "Sources List"
+
+msgid "sources.list desc"
+msgstr "Edit /etc/apt/sources.list manually"
+
+msgid "orphaned"
+msgstr "Remove Orphaned Packages"
+
+msgid "orphaned desc"
+msgstr "Remove unneeded and unimportant packages"
+
+msgid "packages install"
+msgstr "Packages Installer"
+
+msgid "packages install desc"
+msgstr "Install packages manually"
+
+msgid "system"
+msgstr "System"
+
+msgid "slim"
+msgstr "Logging Settings"
+
+msgid "slim desc"
+msgstr "Configure Slim logging manager"
+
+msgid "language"
+msgstr "Language"
+
+msgid "language desc"
+msgstr "Change system language"
+
+msgid "partitioning"
+msgstr "Partitioning"
+
+msgid "partitioning desc"
+msgstr "Add, remove and format local partitions"
+
+msgid "network"
+msgstr "Network Connection"
+
+msgid "network desc"
+msgstr "Edit network connection"
+
+msgid "hardware"
+msgstr "Hardware"
+
+msgid "resolution"
+msgstr "Screen Resolution"
+
+msgid "resolution desc"
+msgstr "Change screen resolution"
+
+msgid "mouse keyboard"
+msgstr "Mouse and Keyboard"
+
+msgid "mouse keyboard desc"
+msgstr "Change mouse and keyboard settings"
+
+msgid "hardware info"
+msgstr "Hardware Info"
+
+msgid "hardware info desc"
+msgstr "System, Hardware and other drivers information"
+
+msgid "diskman"
+msgstr "Disk Manager"
+
+msgid "diskman desc"
+msgstr "Disk management and automounting partitions"
+
+msgid "power"
+msgstr "Power Manager"
+
+msgid "power desc"
+msgstr "Power manager settings"
+
+msgid "more drivers"
+msgstr "Additional Drivers"
+
+msgid "more drivers desc"
+msgstr "Install some closed drivers such as Nvidia and wireless"
+
+msgid "desktop"
+msgstr "Desktop"
+
+msgid "background"
+msgstr "Background"
+
+msgid "background desc"
+msgstr "Set Background and configure it"
+
+msgid "panel"
+msgstr "Panel setting"
+
+msgid "panel desc"
+msgstr "Panel and Taskbar settings"
+
+msgid "appearance"
+msgstr "Appearance"
+
+msgid "appearance desc"
+msgstr "Change GTK+ themes, Icons, Pointer and other settings"
+
+msgid "winman"
+msgstr "Window Manager"
+
+msgid "winman desc"
+msgstr "Change Window Manager (Openbox) theme and settings"
+
+msgid "session"
+msgstr "Desktop Session Settings"
+
+msgid "session desc"
+msgstr "Manage applications loaded in desktop session"
+
+msgid "nvidia"
+msgstr "Nvidia Closed Driver"
+
+msgid "ndiswrapper"
+msgstr "Ndiswrapper Wireless Driver"
+
+msgid "return"
+msgstr "Return"

@@ -5,93 +5,110 @@ ic_dir="/usr/share/pixmaps/debi-cc2/"
 
 logo=$ic_dir"cp.png"
 
+help="x-www-browser \"http://wiki-debi.co.cc/doku.php?id=%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9_%D9%84%D9%88%D8%AD%D8%A9_%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85\" &"
+
 #########################1st frame##########################
 
+title=`gettext -d debi-cc2 -s 'debi control center'`
+
+packages=`gettext -d debi-cc2 -s 'packages'`
+
 ico01=$ic_dir"01.png"
-title01="مدير الحزم"
-desc01="لتثبيت الحزم وإزالة الحزم وتحديث المستودعات"
+title01=`gettext -d debi-cc2 -s 'package man'`
+desc01=`gettext -d debi-cc2 -s 'package man desc'`
 
 ico02=$ic_dir"02.png"
-title02="مصادر البرمجيات"
-desc02="للتحكم في المستودعات"
+title02=`gettext -d debi-cc2 -s 'sources'`
+desc02=`gettext -d debi-cc2 -s 'sources desc'`
 
 ico03=$ic_dir"03.png"
-title03="تحرير ملف المصادر"
-desc03="لتعديل ملف /etc/apt/sources.list يدويا"
+title03=`gettext -d debi-cc2 -s 'sources.list'`
+desc03=`gettext -d debi-cc2 -s 'sources.list desc'`
 
 ico04=$ic_dir"04.png"
-title04="حذف الحزم اليتيمة"
-desc04="لحذف الحزم عديمة الفائدة والغير مهمة"
+title04=`gettext -d debi-cc2 -s 'orphaned'`
+desc04=`gettext -d debi-cc2 -s 'orphaned desc'`
 
 ico05=$ic_dir"05.png"
-title05="مثبّت الحزم"
-desc05="تثبيت الحزم يدويا"
+title05=`gettext -d debi-cc2 -s 'packages install'`
+desc05=`gettext -d debi-cc2 -s 'packages install desc'`
 
 #########################2nd frame##########################
 
+desktop=`gettext -d debi-cc2 -s 'desktop'`
+
 ico11=$ic_dir"11.png"
-title11="خصائص الخلفية"
-desc11="لتعيين الخلفية وخصائص الخلفية"
+title11=`gettext -d debi-cc2 -s 'background'`
+desc11=`gettext -d debi-cc2 -s 'background desc'`
 
 ico12=$ic_dir"12.png"
-title12="إعدادات اللوحة"
-desc12="لإعداد اللوحة السُفلية وشريط المهام"
+title12=`gettext -d debi-cc2 -s 'panel'`
+desc12=`gettext -d debi-cc2 -s 'panel desc'`
 
 ico13=$ic_dir"13.png"
-title13="المظهر"
-desc13="تعيين ثمة gtk ، ثمة الأيقونات ، المؤشر...          "
+title13=`gettext -d debi-cc2 -s 'appearance'`
+desc13=`gettext -d debi-cc2 -s 'appearance desc'`
 
 ico14=$ic_dir"14.png"
-title14="إعدادات مدير النوافذ"
-desc14="تغيير ثمة النوافذ و إعدادات أوبن بوكس."
+title14=`gettext -d debi-cc2 -s 'winman'`
+desc14=`gettext -d debi-cc2 -s 'winman desc'`
 
 ico15=$ic_dir"15.png"
-title15="إعدادات جلسة سطح المكتب"
-desc15=" لتغيير إعدادات جلسة لكسدي وبدء التشغيل"
+title15=`gettext -d debi-cc2 -s 'session'`
+desc15=`gettext -d debi-cc2 -s 'session desc'`
 
 #########################3rd frame##########################
 
+system=`gettext -d debi-cc2 -s 'system'`
+
 ico21=$ic_dir"21.png"
-title21="إعدادات مدير الولوج"
-desc21="التحـكم  في إعدادات  مدير  الولوج slim"
+title21=`gettext -d debi-cc2 -s 'slim'`
+desc21=`gettext -d debi-cc2 -s 'slim desc'`
 
 ico22=$ic_dir"22.png"
-title22="تغيير اللغة"
-desc22="لتغيير لغة النظام بالكامل"
+title22=`gettext -d debi-cc2 -s 'language'`
+desc22=`gettext -d debi-cc2 -s 'language desc'`
 
 ico23=$ic_dir"23.png"
-title23="تقسيم الأقراص"
-desc23="لتنظيم وحذف وإنشاء وتهيئية الأقراص المحلية     "
+title23=`gettext -d debi-cc2 -s 'partitioning'`
+desc23=`gettext -d debi-cc2 -s 'partitioning desc'`
 
 ico24=$ic_dir"24.png"
-title24="إعدادات الشبكة المحلية"
-desc24=" "
+title24=`gettext -d debi-cc2 -s 'network'`
+desc24=`gettext -d debi-cc2 -s 'network desc'`
+
 #########################4th frame##########################
 
+hardware=`gettext -d debi-cc2 -s 'hardware'`
+
 ico31=$ic_dir"31.png"
-title31="دقة الشاشة"
-desc31="تغيير دقة العرض "
+title31=`gettext -d debi-cc2 -s 'resolution'`
+desc31=`gettext -d debi-cc2 -s 'resolution desc'`
 
 ico32=$ic_dir"32.png"
-title32="إعدادات لوحة الفاتيح والفأرة"
-desc32="تغيير إعدادت لوحة المفاتيح والفأرة"
+title32=`gettext -d debi-cc2 -s 'mouse keyboard'`
+desc32=`gettext -d debi-cc2 -s 'mouse keyboard desc'`
 
 ico33=$ic_dir"33.png"
-title33="معلومات العتاد"
-desc33="عرض معولمات العتاد والأجهزة والتعريفات"
+title33=`gettext -d debi-cc2 -s 'hardware info'`
+desc33=`gettext -d debi-cc2 -s 'hardware info desc'`
 
 ico34=$ic_dir"34.png"
-title34="إدارة الأقراص"
-desc34="للتحكم في الأقراص وتركيبها                   "
+title34=`gettext -d debi-cc2 -s 'diskman'`
+desc34=`gettext -d debi-cc2 -s 'diskman desc'`
 
 ico35=$ic_dir"35.png"
-title35="إدارة الطاقة"
-desc35=" "
+title35=`gettext -d debi-cc2 -s 'power'`
+desc35=`gettext -d debi-cc2 -s 'power desc'`
+
+more_drivers=`gettext -d debi-cc2 -s 'more drivers'`
+more_drivers_desc=`gettext -d debi-cc2 -s 'more drivers desc'`
+
 ######################################################
 
 
 export dlg="
-<window title=\"لوحة تحكم debi GNU/Linux\" icon-name=\"gkdebconf-icon\" resizable=\"false\">
+<window title=\"$title\" icon-name=\"gkdebconf-icon\" resizable=\"false\">
 	<vbox>
 	
 
@@ -104,7 +121,7 @@ export dlg="
 
 	
 	<vbox>
-	<frame الحزم والبرامج><hbox space-expand=\"true\" space-fill=\"true\">
+	<frame $packages><hbox space-expand=\"true\" space-fill=\"true\">
 		
 	
 		
@@ -134,34 +151,34 @@ export dlg="
 		<action>gdebi-gtk &</action>
 		<label>\"$title05\"</label></button>
 	</hbox></frame>
-        	<frame النظام><hbox space-expand=\"true\" space-fill=\"true\">
+        	<frame $system><hbox space-expand=\"true\" space-fill=\"true\">
 	
 
 		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc21\" >
 		<input file>\"$ico21\"</input>
-		<action>remsu slimer</action>
+		<action>remsu slimer &</action>
 		<label>\"$title21\"</label></button>
 
 		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc22\" >
 		<input file>\"$ico22\"</input>
-		<action>remsu \"roxterm -e dpkg-reconfigure locales\"</action>
+		<action>remsu \"roxterm -e dpkg-reconfigure locales\" &</action>
 		<label>\"$title22\"</label></button>
 
 		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc23\" >
 		<input file>\"$ico23\"</input>
-		<action>remsu /usr/sbin/gparted & </action>
+		<action>remsu /usr/sbin/gparted &</action>
 		<label>\"$title23\"</label></button>
 		
 		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc24\" >
 		<input file>\"$ico24\"</input>
-		<action>remsu \"wicd-gtk --no-tray\" &</action>
+		<action>network-connection-editor &</action>
 		<label>\"$title24\"</label></button>
 
 
 	
 	</hbox></frame>
 	
-	<frame العتاد><hbox space-expand=\"true\" space-fill=\"true\">
+	<frame $hardware><hbox space-expand=\"true\" space-fill=\"true\">
 		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc31\" >
 		<input file>\"$ico31\"</input>
 		<action>lxrandr &</action>
@@ -186,13 +203,13 @@ export dlg="
 		<input file>\"$ico35\"</input>
 		<action>xfce4-power-manager-settings &</action>
 		<label>\"$title35\"</label></button>
-		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc33\" >
-		<input file>\"$ico33\"</input>
 		
+		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$more_drivers_desc\" >
+		<input file>\"$ico33\"</input>
 		<action>debi-cc2-drivers &</action>
 		<action type=\"exit\">dlg</action>
+		<label>\"$more_drivers\"</label></button>
 		
-		<label>\"تعاريف العتاد الإضافية\"</label></button>
 		</hbox>
 
 
@@ -200,15 +217,15 @@ export dlg="
 		
 		
 	</frame>
-	<frame سطح المكتب><hbox space-expand=\"true\" space-fill=\"true\">
+	<frame $desktop><hbox space-expand=\"true\" space-fill=\"true\">
 		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc11\" >
 		<input file>\"$ico11\"</input>
-		<action>pcmanfm --desktop-pref</action>
+		<action>pcmanfm --desktop-pref &</action>
 		<label>\"$title11\"</label></button>
 
 		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc12\" >
 		<input file>\"$ico12\"</input>
-		<action>lxpanelctl config</action>
+		<action>lxpanelctl config &</action>
 		
 		<label>\"$title12\"</label></button>
 
@@ -238,7 +255,7 @@ export dlg="
 	
 	<button cancel></button>
 	<button help>
-	<action>x-www-browser \"http://wiki-debi.co.cc/doku.php?id=%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9_%D9%84%D9%88%D8%AD%D8%A9_%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85\"</action>
+	<action>$help</action>
 	</button>
 	
 	</hbox>

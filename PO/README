@@ -1,0 +1,7 @@
+This directory contains PO files for debi GNU/Linux Control Center.
+You may improve your language translation, or translate into new one.
+
+This directory is for developing only, You should make .mo file to use with the application.
+This done by "msgfmt -o /usr/share/locale/en/LC_MESSAGES/debi-cc2.mo en.po" and replace "en" with your lang.
+
+Note: Title Image hasn't become multilingual yet ;)

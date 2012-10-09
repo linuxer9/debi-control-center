@@ -1,0 +1,145 @@
+#Arabic
+
+msgid "debi control center"
+msgstr "لوحة تحكم debi GNU/Linux"
+
+msgid "packages"
+msgstr "الحزم والبرامج"
+
+msgid "package man"
+msgstr "مدير الحزم"
+
+msgid "package man desc"
+msgstr "لتثبيت الحزم وإزالتها وتحديث المستودعات"
+
+msgid "sources"
+msgstr "مصادر البرمجيات"
+
+msgid "sources desc"
+msgstr "التحكم في المستودعات"
+
+msgid "sources.list"
+msgstr "تحرير ملف المصادر"
+
+msgid "sources.list desc"
+msgstr "تعديل ملف /etc/apt/sources.list يدويا"
+
+msgid "orphaned"
+msgstr "حذف الحزم اليتيمة"
+
+msgid "orphaned desc"
+msgstr "حذف الحزم عديمة الفائدة وغير المهمة"
+
+msgid "packages install"
+msgstr "مثبّت الحزم"
+
+msgid "packages install desc"
+msgstr "تثبيت الحزم يدويا"
+
+msgid "system"
+msgstr "النظام"
+
+msgid "slim"
+msgstr "إعدادات مدير الولوج"
+
+msgid "slim desc"
+msgstr "التحـكم  في إعدادات  مدير  الولوج slim"
+
+msgid "language"
+msgstr "تغيير اللغة"
+
+msgid "language desc"
+msgstr "تغيير لغة النظام بالكامل"
+
+msgid "partitioning"
+msgstr "تقسيم الأقراص"
+
+msgid "partitioning desc"
+msgstr "تقسيم الأقراص وتهيئتها وحذف الاقسام وإنشائها"
+
+msgid "network"
+msgstr "إعدادات الشبكة"
+
+msgid "network desc"
+msgstr "تعديل إعدادات الإتصال بالشبكة"
+
+msgid "hardware"
+msgstr "العتاد"
+
+msgid "resolution"
+msgstr "دقة الشاشة"
+
+msgid "resolution desc"
+msgstr "تغيير دقة العرض"
+
+msgid "mouse keyboard"
+msgstr "لوحة المفاتيح والفأرة"
+
+msgid "mouse keyboard desc"
+msgstr "تعديل إعدادت لوحة المفاتيح والفأرة"
+
+msgid "hardware info"
+msgstr "معلومات العتاد"
+
+msgid "hardware info desc"
+msgstr "عرض معلومات العتاد والأجهزة والتعريفات"
+
+msgid "diskman"
+msgstr "إدارة الأقراص"
+
+msgid "diskman desc"
+msgstr "التحكم في الأقراص والضم التلقائي لها"
+
+msgid "power"
+msgstr "إدارة الطاقة"
+
+msgid "power desc"
+msgstr "تعديل إعدادات الطاقة المختلفة"
+
+msgid "more drivers"
+msgstr "تعريفات العتاد الإضافية"
+
+msgid "more drivers desc"
+msgstr "تثبيت بعض التعريفات المغلقة كبطاقة نفيديا أو اللاسلكي"
+
+msgid "desktop"
+msgstr "سطح المكتب"
+
+msgid "background"
+msgstr "خصائص الخلفية"
+
+msgid "background desc"
+msgstr "تعيين الخلفية وتعديل خصائصها"
+
+msgid "panel"
+msgstr "إعدادات اللوحة"
+
+msgid "panel desc"
+msgstr "تعديل إعدادات اللوحة السُفلية وشريط المهام"
+
+msgid "appearance"
+msgstr "المظهر"
+
+msgid "appearance desc"
+msgstr "تعديل سمة GTK، سمة الأيقونات، المؤشر، وغيرها"
+
+msgid "winman"
+msgstr "إعدادات مدير النوافذ"
+
+msgid "winman desc"
+msgstr "تعديل سمة النوافذ و إعدادات أوبن بوكس"
+
+msgid "session"
+msgstr "إعدادات جلسة سطح المكتب"
+
+msgid "session desc"
+msgstr " لتعديل إعدادات جلسة لكسدي وبدء التشغيل"
+
+msgid "nvidia"
+msgstr "تعريف Nvidia المغلق"
+
+msgid "ndiswrapper"
+msgstr "تعريف اللاسلكي Ndiswrapper"
+
+msgid "return"
+msgstr "عودة"
