@@ -171,7 +171,7 @@ export dlg="
 		
 		<button use-stock=\"true\" image-position=\"2\" relief=\"2\" tooltip-text=\"$desc24\" >
 		<input file>\"$ico24\"</input>
-		<action>network-connection-editor &</action>
+		<action>nm-connection-editor &</action>
 		<label>\"$title24\"</label></button>
 
 
